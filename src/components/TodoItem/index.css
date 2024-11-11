@@ -1,0 +1,25 @@
+/* Write your CSS here */
+todo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  list-style: none;
+}
+.paragraph {
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.delete-button {
+  color: #ff0b37;
+  border-color: #ff0b37;
+  background-color: #ffffff;
+  border-radius: 9px;
+  width: 160px;
+  height: 45px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
